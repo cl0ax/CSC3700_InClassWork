@@ -3,19 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>This is latin</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <style>
+        .firstCol {
+            background-color: orange;
+        }
+    </style>
+
 </head>
-<body style="font-family: SansSerif">
-<header style="height:120px; background-color:bisque">
-    <img src="imgs/logo.png" width="112" height="112"/>
-    Books R Us
+<body>
+<header >
+    <img id='logo' src="imgs/logo.png" alt="The Logo" />
+    <div id="mainTitle"> Books R Us </div>
 </header>
-<h2> Books R Us </h2>
-Lorem ipsum dolor sit amet, consectetur
-adipisicing elit Architecto aut
-libero modi neque perferendis perspiciatis quas repellendus tempora veniam, voluptatem!
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis deleniti
-esse explicabo fugiat harum hic laboriosam maiores nostrum, perferendis quaerat
-quasi voluptatum.
-Ducimus, impedit, iusto! Cupiditate earum esse ipsam nam ullam veniam vero.
+<div id="mainArea">
+<h2> Best Sellers </h2>
+    <table id="mainTable">
+        <tr>
+            <th> Title </th>
+            <th> Author </th>
+            <th> Price </th>
+        </tr>
+        <tr>
+            <td class="firstCol" style="background-color: red">
+                <a href="oppy.html"> American Prometheus </a>
+            </td>
+            <td>
+                Bird
+            </td>
+            <td> 12.99</td>
+        </tr>
+        <tr>
+            <td  class="firstCol">
+                The Fellowship of the Ring
+            </td>
+            <td>Tolkien</td>
+            <td> 14.99</td>
+        </tr>
+    </table>
+This is a <div id="blah"> piece of text </div> hello there
+</div>
+<footer>
+    <div id="footerContent">
+    Books by Lash LLC. Do no sue me.
+    </div>
+</footer>
 </body>
 </html>
